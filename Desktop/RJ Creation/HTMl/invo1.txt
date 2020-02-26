@@ -1,0 +1,347 @@
+<!Doctype html>
+<html>
+<head>
+<title>Free Invoice template</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<style type="text/css">
+.panel{
+padding: 0px !important;
+}
+th,td{
+border-right: 1px solid white !important;
+}
+.tdNoWrap{
+white-space: nowrap;
+}
+*{
+font-size:9px !important;
+font-family:Calibri;
+-webkit-print-color-adjust:exact;
+}
+.trHeader{
+background-color : #C6CEE7 !important;
+-webkit-print-color-adjust:exact;
+}
+.trRed{
+//background-color: red;
+color:red;
+font-weight:bold;
+}
+.trGreen{
+//background-color: green;
+color:green;
+font-weight:bold;
+}
+*{
+font-family:Calibri;
+-webkit-print-color-adjust:exact;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+padding: 5px;
+line-height: 1;
+vertical-align: top;
+border :none;
+}
+.paid{
+float:center;
+color:green;
+}
+.progress{
+}
+.row {
+margin : auto;
+}
+a:hover, a:focus {
+color: #2a6496;
+text-decoration: none;
+}
+table { page-break-after:auto }
+tr { page-break-inside:avoid; page-break-after:auto }
+td { page-break-inside:avoid; page-break-after:auto }
+thead { display:table-header-group }
+#wmbg{
+position: absolute;
+z-index: 1;
+background: transparent;
+display: block;
+min-height: 50%;
+min-width: 50%;
+margin-top: 25%;
+margin-left: 25%;
+}
+#content{
+position:absolute;
+z-index:1;
+}
+#bg-text
+{
+color:orange;
+font-size:72px !important;
+transform:rotate(-45deg);
+-webkit-transform:rotate(-45deg);
+opacity: 0.1;
+text-align: center;
+}
+@media print{
+.tdNoWrap{
+white-space: nowrap;
+}
+*{
+font-size:9px !important;
+font-family:Calibri;
+-webkit-print-color-adjust:exact;
+}
+.trHeader{
+background-color : #C6CEE7 !important;
+-webkit-print-color-adjust:exact;
+}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row" style="margin-top: 15px;margin-bottom: 15px;">
+<div class="col-xs-5">
+<div class="col-xs-4">
+<div class="media" style="margin-bottom:10px;">
+<img style="width: 100px;" class="media-object img-responsive" src="http://www.aorborc.com/wp-content/themes/impulso/img/logo.png">
+</div>
+</div>
+<div class="col-xs-8">
+<div class="media-body">
+<table style="font-size: 11px !important;font-family: Calibri; padding-left:5px;">
+<tbody>
+<tr>
+<td colspan="2">
+AorBorC Technologies LLC
+</td>
+</tr>
+<tr>
+<td colspan="2">
+Address
+<br>City State Zip Country
+</td>
+</tr>
+<tr>
+<th style="white-space: nowrap;">
+License #:
+</th>
+<td style="padding-left:5px;white-space: nowrap;">
+ABCD 12345
+</td>
+</tr>
+<tr>
+<th style="white-space: nowrap;">
+Tracking #:
+</th>
+<td style="padding-left:5px;white-space: nowrap;">
+12345
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="col-xs-2" align="center">
+<h3 style="-webkit-transform: rotate(-45deg);color:red;font-size: 24px !important;"> Invoice <br> 90
+</h3>
+</div>
+<div class="col-xs-5">
+<div class="col-xs-4">
+<div class="media" style="margin-bottom:10px;">
+<img style="width:100px;" class="media-object img-responsive" src="http://aorborc.com/wp-admin/square_logo.png">
+</div>
+</div>
+<div class="col-xs-8">
+<div class="media-body">
+<table style="font-size: 11px !important;font-family: Calibri; padding-left:5px;">
+<tbody>
+<tr>
+<td colspan="2">
+Client Name
+<br>
+Business Name
+</td>
+</tr>
+<tr>
+<td colspan="2">
+Address
+<br>City State Zip Country </td>
+</tr>
+<tr>
+<th style="white-space: nowrap;">
+Invoice # :
+</th>
+<td style="padding-left:5px;white-space: nowrap;">
+90
+</td>
+</tr>
+<tr>
+<th style="white-space: nowrap;">
+Submitted :
+</th>
+<td style="padding-left:5px;white-space: nowrap;">
+05-Apr-2016
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="row ">
+<div class="col-xs-12 panel">
+<div id="wmbg">
+<p id="bg-text">
+Pending
+</p>
+</div>
+<table class="table" style="font-size: 11px !important; font-family: Calibri;">
+<thead>
+<tr class="trHeader" style="background-color: #C6CEE7;">
+<th style="text-align:left;">Category</th>
+<th style="text-align:right;">Item Name</th>
+<th style="text-align:right;">Description</th>
+<th style="text-align:right;">Qty</th>
+<th style="text-align:right;">Price</th>
+<th style="text-align:right;">Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th style="text-align:left;" colspan="6">Design</th>
+</tr>
+<tr>
+<td colspan="6"> </td>
+</tr>
+<tr>
+<td>
+</td>
+<td style="text-align: right;">Wireframes</td>
+<td style="text-align: right;max-width:300px;word-wrap:break-word;">
+Creating wireframes
+</td>
+<td class="tdNoWrap" style="text-align: right;">1</td>
+<td class="tdNoWrap" style="text-align: right;">$ 100.00
+</td>
+<td class="tdNoWrap" style="text-align: right;">$ 100.00</td>
+</tr><tr>
+<td>
+</td>
+<td style="text-align: right;">HTML</td>
+<td style="text-align: right;max-width:300px;word-wrap:break-word;">HTML Design with bootstrap</td>
+<td class="tdNoWrap" style="text-align: right;">1</td>
+<td class="tdNoWrap" style="text-align: right;">$ 100.00
+</td>
+<td class="tdNoWrap" style="text-align: right;">$ 100.00</td>
+</tr>
+<tr>
+<td colspan="6"> </td>
+</tr>
+<tr>
+<th style="text-align:right;" colspan="5">Design Subtotal</th>
+<th class="tdNoWrap" colspan="1" style="text-align: right;">$ 200.00</th>
+</tr>
+
+<tr>
+<td colspan="6"> </td>
+</tr>
+
+<tr>
+<th colspan="4" style="text-align:left;width: 80%;">
+<span style="float:left;">Tax</span>
+</th>
+<td>
+<span style="float:right;">
+3.00 %</span>
+</td>
+<td>
+<span style="float:right;">$6.00
+</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+</tr>
+<tr>
+<th colspan="4" style="text-align:left;width: 80%;">
+<span style="float:left;">Discount</span>
+</th>
+<td>
+<span style="float:right;">
+5.00 %</span>
+</td>
+<td>
+<span style="float:right;">$ 10.30
+</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+</tr>
+
+<tr>
+<th colspan="5" style="text-align:left;">
+<span style="float:left;">Grand Total</span>
+</th>
+<td>
+<span style="float:right;">$ 210.30
+</span>
+</td>
+</tr>
+<tr>
+<td colspan="6"> </td>
+</tr>
+<tr style="border-bottom: 5px solid white;">
+<td> </td>
+<th>
+<span style="float:center;">Payment received
+</span>
+</th>
+<td> </td>
+<th class="trGreen">
+<span style="float:center;">Paid </span>
+</th>
+<td> </td>
+<td>
+<span style="float:right;">$ 100.00
+</span>
+</td>
+</tr>
+<tr style="border-bottom: 5px solid white;">
+<td> </td>
+<th>
+<span style="float:center;">Amount Credited (further discounts)
+</span>
+</th>
+<td> </td>
+<th class="trGreen">
+<span style="float:center;"> </span>
+</th>
+<td> </td>
+<td>
+<span style="float:right;">-$ 10.00
+</span>
+</td>
+</tr>
+<tr>
+<td> </td>
+</tr>
+<tr>
+<th colspan="5" style="text-align:left;">
+<span style="float:left;">Pro Forma & Remaining Balance</span>
+</th>
+<th>
+<span style="float:right;">$ 100.30
+</span>
+</th>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
